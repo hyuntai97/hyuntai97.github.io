@@ -109,7 +109,7 @@
             var dic_class2information = {};
             dic_class2information['포메라니안'] = '포메라니안(Pomeranian)이라는 이름의 유래는 사모예드와 스피츠를 열심히 소형화시켜 실내견으로 만들어낸 북독일의 포메른 공국에서 따왔다.';
             dic_class2information['푸들'] = '푸들은 개의 품종 중 하나이며, 프랑스의 국견이다. 원산지는 독일이고, 프랑스 귀족 여성들에 의해 인기를 얻어 널리 번식되었으며, 털이 길고 양털 모양으로 자란다. ';
-            dic_class2information['시추'] = '시추는 중국에서 비롯한 개 품종이며 과거 중국 황실이 기르던 견종이다. 중국에서는 ‘사자개’라고 부르는데, 이 이름의 웨이드식 로마자 표기법인 shih-tzu kou에서 ‘시추’라는 이름이 왔다.';
+            dic_class2information['시츄'] = '시추는 중국에서 비롯한 개 품종이며 과거 중국 황실이 기르던 견종이다. 중국에서는 ‘사자개’라고 부르는데, 이 이름의 웨이드식 로마자 표기법인 shih-tzu kou에서 ‘시추’라는 이름이 왔다.';
             var image = document.getElementById("face-image");
             const prediction = await model.predict(image, false);
             prediction.sort((a, b) => parseFloat(b.probability) - parseFloat(a.probability));
